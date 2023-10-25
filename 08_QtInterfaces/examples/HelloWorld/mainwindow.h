@@ -23,9 +23,9 @@ public:
     ~MainWindow();
 
 private:
-    // Puntero que se hará apuntar a la interfaz gráfica definida en mainwindow.ui
-    // Definición de esta clase se encuentra en el archivo "ui_mainwindow.h"
-    // (generado automáticamente)
+    // Puntero que apuntará a la interfaz gráfica definida en mainwindow.ui
+    // Definición de esta clase se relacionada a la definición generada 
+    // automáticamente en el archivo "ui_mainwindow.h
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

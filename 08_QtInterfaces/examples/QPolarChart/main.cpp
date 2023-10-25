@@ -17,51 +17,51 @@ int main(int argc, char *argv[])
     for (int i = angularMin; i <= angularMax; i += 10)
         series1->append(i, (i / radialMax) * radialMax + 8.0);
 
-    QSplineSeries *series2 = new QSplineSeries();
-    series2->setName("spline");
-    for (int i = angularMin; i <= angularMax; i += 10)
-        series2->append(i, (i / radialMax) * radialMax);
+//    QSplineSeries *series2 = new QSplineSeries();
+//    series2->setName("spline");
+//    for (int i = angularMin; i <= angularMax; i += 10)
+//        series2->append(i, (i / radialMax) * radialMax);
 
-    QLineSeries *series3 = new QLineSeries();
-    series3->setName("star outer");
-    qreal ad = (angularMax - angularMin) / 8;
-    qreal rd = (radialMax - radialMin) / 3 * 1.3;
-    series3->append(angularMin, radialMax);
-    series3->append(angularMin + ad*1, radialMin + rd);
-    series3->append(angularMin + ad*2, radialMax);
-    series3->append(angularMin + ad*3, radialMin + rd);
-    series3->append(angularMin + ad*4, radialMax);
-    series3->append(angularMin + ad*5, radialMin + rd);
-    series3->append(angularMin + ad*6, radialMax);
-    series3->append(angularMin + ad*7, radialMin + rd);
-    series3->append(angularMin + ad*8, radialMax);
+//    QLineSeries *series3 = new QLineSeries();
+//    series3->setName("star outer");
+//    qreal ad = (angularMax - angularMin) / 8;
+//    qreal rd = (radialMax - radialMin) / 3 * 1.3;
+//    series3->append(angularMin, radialMax);
+//    series3->append(angularMin + ad*1, radialMin + rd);
+//    series3->append(angularMin + ad*2, radialMax);
+//    series3->append(angularMin + ad*3, radialMin + rd);
+//    series3->append(angularMin + ad*4, radialMax);
+//    series3->append(angularMin + ad*5, radialMin + rd);
+//    series3->append(angularMin + ad*6, radialMax);
+//    series3->append(angularMin + ad*7, radialMin + rd);
+//    series3->append(angularMin + ad*8, radialMax);
 
-    QLineSeries *series4 = new QLineSeries();
-    series4->setName("star inner");
-    ad = (angularMax - angularMin) / 8;
-    rd = (radialMax - radialMin) / 3;
-    series4->append(angularMin, radialMax);
-    series4->append(angularMin + ad*1, radialMin + rd);
-    series4->append(angularMin + ad*2, radialMax);
-    series4->append(angularMin + ad*3, radialMin + rd);
-    series4->append(angularMin + ad*4, radialMax);
-    series4->append(angularMin + ad*5, radialMin + rd);
-    series4->append(angularMin + ad*6, radialMax);
-    series4->append(angularMin + ad*7, radialMin + rd);
-    series4->append(angularMin + ad*8, radialMax);
+//    QLineSeries *series4 = new QLineSeries();
+//    series4->setName("star inner");
+//    ad = (angularMax - angularMin) / 8;
+//    rd = (radialMax - radialMin) / 3;
+//    series4->append(angularMin, radialMax);
+//    series4->append(angularMin + ad*1, radialMin + rd);
+//    series4->append(angularMin + ad*2, radialMax);
+//    series4->append(angularMin + ad*3, radialMin + rd);
+//    series4->append(angularMin + ad*4, radialMax);
+//    series4->append(angularMin + ad*5, radialMin + rd);
+//    series4->append(angularMin + ad*6, radialMax);
+//    series4->append(angularMin + ad*7, radialMin + rd);
+//    series4->append(angularMin + ad*8, radialMax);
 
-    QAreaSeries *series5 = new QAreaSeries();
-    series5->setName("star area");
-    series5->setUpperSeries(series3);
-    series5->setLowerSeries(series4);
-    series5->setOpacity(0.5);
+//    QAreaSeries *series5 = new QAreaSeries();
+//    series5->setName("star area");
+//    series5->setUpperSeries(series3);
+//    series5->setLowerSeries(series4);
+//    series5->setOpacity(0.5);
 
     QPolarChart *chart = new QPolarChart();
     chart->addSeries(series1);
-    chart->addSeries(series2);
-    chart->addSeries(series3);
-    chart->addSeries(series4);
-    chart->addSeries(series5);
+//    chart->addSeries(series2);
+//    chart->addSeries(series3);
+//    chart->addSeries(series4);
+//    chart->addSeries(series5);
 
     chart->setTitle("Use arrow keys to scroll, +/- to zoom, and space to switch chart type.");
 
@@ -79,14 +79,14 @@ int main(int argc, char *argv[])
 
     series1->attachAxis(radialAxis);
     series1->attachAxis(angularAxis);
-    series2->attachAxis(radialAxis);
-    series2->attachAxis(angularAxis);
-    series3->attachAxis(radialAxis);
-    series3->attachAxis(angularAxis);
-    series4->attachAxis(radialAxis);
-    series4->attachAxis(angularAxis);
-    series5->attachAxis(radialAxis);
-    series5->attachAxis(angularAxis);
+//    series2->attachAxis(radialAxis);
+//    series2->attachAxis(angularAxis);
+//    series3->attachAxis(radialAxis);
+//    series3->attachAxis(angularAxis);
+//    series4->attachAxis(radialAxis);
+//    series4->attachAxis(angularAxis);
+//    series5->attachAxis(radialAxis);
+//    series5->attachAxis(angularAxis);
 
     radialAxis->setRange(radialMin, radialMax);
     angularAxis->setRange(angularMin, angularMax);
