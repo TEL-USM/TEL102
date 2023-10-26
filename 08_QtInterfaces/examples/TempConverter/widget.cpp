@@ -8,6 +8,8 @@ Widget::Widget(QWidget *parent) :
 {
     ui->setupUi(this);
     tConverter = new TempConverter();
+
+    // Conexiones de signal y slot entre conversor de temperatura y diales
     connect(ui->celsiusDial,SIGNAL(valueChanged(int)),tConverter,SLOT(setTempCelsius(int)));
     connect(ui->fahrenheitDial,SIGNAL(valueChanged(int)),tConverter,SLOT(setTempFahrenheit(int)));
     connect(tConverter,SIGNAL(tempCelsiusChanged(int)),ui->celsiusDial,SLOT(setValue(int)));
