@@ -53,6 +53,7 @@ int main(){
     int n_authors;
     std::cout << "Ingrese el número de autores a ingresar";
     std::cin >> n_authors;
+    std::cin.ignore();
     // Se crea un arreglo de autores en memoria dinámica
     author *autores = new author[n_authors]; 
 
