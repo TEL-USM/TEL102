@@ -173,3 +173,6 @@ build-*/
 
 .vscode
 .ipynb_checkpoints
+
+# Added
+*.html
