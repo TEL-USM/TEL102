@@ -179,7 +179,7 @@ build-*/
 .qtcreator/
 .webui_secret_key
 
-01_Introduccion_a_Linux/archivos
+01_Introduccion_a_Linux/archivos/*
 02_ProgramacionBasicaC/examples/*
 04_ManejoMemoria/examples/*
 05_IntroCPP_POO/examples/*
