@@ -20,16 +20,16 @@ Repositorio de material docente, ejemplos de código y evaluaciones para la asig
 - Carpeta de **Evaluaciones** con prácticos/controles (incluye material de práctica y versiones de semestres anteriores).
 
 ## Material por unidad (enlaces rápidos)
-| Unidad | Carpeta | Temas principales | Notebook | PDF | HTML |
-| --- | --- | --- | --- | --- | --- |
-| 00 | `00-Introduccion/` | Resultados de aprendizaje, evaluación, reglas y código de honor | [`00-Introduccion.ipynb`](00-Introduccion/00-Introduccion.ipynb) | [`00-Introduccion.pdf`](00-Introduccion/00-Introduccion.pdf) | — |
-| 01 | `01_Introduccion_a_Linux/` | Linux, consola y comandos básicos | [`01_Introduccion_a_Linux.ipynb`](01_Introduccion_a_Linux/01_Introduccion_a_Linux.ipynb) | [`01_Introduccion_a_Linux.pdf`](01_Introduccion_a_Linux/01_Introduccion_a_Linux.pdf) | — |
-| 02 | `02_ProgramacionBasicaC/` | C: compilación (`gcc`), tipos, I/O, control, funciones | [`02_ProgramacionBasicaC.ipynb`](02_ProgramacionBasicaC/02_ProgramacionBasicaC.ipynb) | [`02_ProgramacionBasicaC.pdf`](02_ProgramacionBasicaC/02_ProgramacionBasicaC.pdf) | [`02_ProgramacionBasicaC.html`](02_ProgramacionBasicaC/02_ProgramacionBasicaC.html) |
-| 03 | `03_Planificacion/` | Planificación, Scrum/DevOps, Git y GitHub | [`03_Planificacion.ipynb`](03_Planificacion/03_Planificacion.ipynb) | [`03_Planificacion.pdf`](03_Planificacion/03_Planificacion.pdf) | [`03_Planificacion.html`](03_Planificacion/03_Planificacion.html) |
-| 04 | `04_ManejoMemoria/` | Memoria en C: stack/heap, `malloc/free`, errores comunes, Valgrind, punteros/`struct` | [`04_ManejoMemoria.ipynb`](04_ManejoMemoria/04_ManejoMemoria.ipynb) | [`04_ManejoMemoria.pdf`](04_ManejoMemoria/04_ManejoMemoria.pdf) | [`04_ManejoMemoria.html`](04_ManejoMemoria/04_ManejoMemoria.html) |
-| 05 | `05_IntroCPP_POO/` | C++ y POO: clases, herencia/polimorfismo, STL | [`05_IntroCPP_POO.ipynb`](05_IntroCPP_POO/05_IntroCPP_POO.ipynb) | [`05_IntroCPP_POO.pdf`](05_IntroCPP_POO/05_IntroCPP_POO.pdf) | [`05_IntroCPP_POO.html`](05_IntroCPP_POO/05_IntroCPP_POO.html) |
-| 06 | `06_QtLibrary/` | Qt: instalación, CMake, Qt Creator/Designer, signals/slots, Qt Charts | [`06_QtLibrary.ipynb`](06_QtLibrary/06_QtLibrary.ipynb) | [`06_QtLibrary.pdf`](06_QtLibrary/06_QtLibrary.pdf) | [`06_QtLibrary.html`](06_QtLibrary/06_QtLibrary.html) |
-| Anexo | `ANEXO/` | Estructuración de código: Makefile, `namespace`, `argc/argv` | [`Estrucutrando_codigo.ipynb`](ANEXO/Estrucutrando_codigo.ipynb) | — | — |
+| Unidad | Carpeta | Temas principales | Notebook | PDF |
+| --- | --- | --- | --- | --- |
+| 00 | `00-Introduccion/` | Resultados de aprendizaje, evaluación, reglas y código de honor | [`00-Introduccion.ipynb`](00-Introduccion/00-Introduccion.ipynb) | [`00-Introduccion.pdf`](00-Introduccion/00-Introduccion.pdf) |
+| 01 | `01_Introduccion_a_Linux/` | Linux, consola y comandos básicos | [`01_Introduccion_a_Linux.ipynb`](01_Introduccion_a_Linux/01_Introduccion_a_Linux.ipynb) | [`01_Introduccion_a_Linux.pdf`](01_Introduccion_a_Linux/01_Introduccion_a_Linux.pdf) |
+| 02 | `02_ProgramacionBasicaC/` | C: compilación (`gcc`), tipos, I/O, control, funciones | [`02_ProgramacionBasicaC.ipynb`](02_ProgramacionBasicaC/02_ProgramacionBasicaC.ipynb) | [`02_ProgramacionBasicaC.pdf`](02_ProgramacionBasicaC/02_ProgramacionBasicaC.pdf) |
+| 03 | `03_Planificacion/` | Planificación, Scrum/DevOps, Git y GitHub | [`03_Planificacion.ipynb`](03_Planificacion/03_Planificacion.ipynb) | [`03_Planificacion.pdf`](03_Planificacion/03_Planificacion.pdf) |
+| 04 | `04_ManejoMemoria/` | Memoria en C: stack/heap, `malloc/free`, errores comunes, Valgrind, punteros/`struct` | [`04_ManejoMemoria.ipynb`](04_ManejoMemoria/04_ManejoMemoria.ipynb) | [`04_ManejoMemoria.pdf`](04_ManejoMemoria/04_ManejoMemoria.pdf) |
+| 05 | `05_IntroCPP_POO/` | C++ y POO: clases, herencia/polimorfismo, STL | [`05_IntroCPP_POO.ipynb`](05_IntroCPP_POO/05_IntroCPP_POO.ipynb) | [`05_IntroCPP_POO.pdf`](05_IntroCPP_POO/05_IntroCPP_POO.pdf) |
+| 06 | `06_QtLibrary/` | Qt: instalación, CMake, Qt Creator/Designer, signals/slots, Qt Charts | [`06_QtLibrary.ipynb`](06_QtLibrary/06_QtLibrary.ipynb) | [`06_QtLibrary.pdf`](06_QtLibrary/06_QtLibrary.pdf) |
+| Anexo | `ANEXO/` | Estructuración de código: Makefile, `namespace`, `argc/argv` | [`Estrucutrando_codigo.ipynb`](ANEXO/Estrucutrando_codigo.ipynb) | — |
 
 > Varias unidades incluyen carpetas `images/` y/o `examples/`. En Qt hay material adicional en `06_QtLibrary/examples/` y `06_QtLibrary/Taller/`.
 
